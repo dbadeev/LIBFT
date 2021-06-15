@@ -4,7 +4,7 @@ My first own library in C language.
 
 The aim of this project is to code a C library, regrouping usual functions, that we’ll be allowed to use in all our future projects.
 
-More details regarding that project are in  **Subject.pdf**
+More details regarding that project are in  **libft.en.pdf**
 
 # Contents
 
