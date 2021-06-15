@@ -4,7 +4,7 @@ My first own library in C language.
 
 The aim of this project is to code a C library, regrouping usual functions, that we’ll be allowed to use in all our future projects.
 
-More details regarding that project are in  **Subject.pdf**.
+More details regarding that project are in  **Subject.pdf**
 
 # Contents
 
@@ -83,7 +83,7 @@ More details regarding that project are in  **Subject.pdf**.
 - ft_lstiter
 - ft_lstmap
 
-## Personal Functions
+## My Functions
 ### _Check_
 - ft_istabeolsp
 ### _Lists_
@@ -95,10 +95,24 @@ More details regarding that project are in  **Subject.pdf**.
 ### _Pointers_
 - ft_swap
 
-
+##
+##
 
 ## Usage
-open a terminal and browse the Libft folder
-run the Makefile using the command 'make' (this generates the library as "libft.a")
-include "libft.h" header in your code and use any libft functions in your project
-compile your code with the library using gcc -o myExecutable mySource.c libft.a
+### Compile
+-  to compile **libft.a** run:
+```make ``` OR ``` make libft ```
+- to delete **tmp** files after compile (only **libft.a** will be remain) run: 
+```make clean```
+- to delete ALL files after compile run: ``` fclean``` 
+- to update the configuration, if you change any **filename.c/h**  run: ``` make``` 
+- to recompile all files run: ```make re``` 
+
+
+## Include
+To use **Libft** in project:
+
+- ```#include <libft.h> ```
+- compile files with ```-I /libft/includes```
+- compile **libft**
+- link binary with ``` -L /libft -lft ```
