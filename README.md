@@ -1,10 +1,8 @@
-![](https://user-images.githubusercontent.com/50623941/135349015-b3809664-fa24-4062-a7c8-b3dec73fccee.png)
 # Libft
 My first own library in C language.
 
 The aim of this project is to code a C library, regrouping usual functions, that we’ll be allowed to use in all our future projects.
 
-More details regarding that project are in  **libft.en.pdf**
 
 ## Getting Started
 
@@ -12,14 +10,14 @@ More details regarding that project are in  **libft.en.pdf**
 To copy the Project files to your local computer to the *<your_dir_on_local_computer>* folder, run:
 
 ```
-    $ git clone git@github.com:dbadeev/libft-project.git <your_dir_on_local_computer>
+    $ git clone git@github.com:dbadeev/LIBFT.git <your_dir_on_local_computer>
 ```
 
 
-# Contents
+## Contents
 
-## Libc functions
-### _Memory_
+### Libc functions
+#### _Memory_
 - ft_bzero
 - ft_memset
 - ft_memcpy
@@ -31,7 +29,7 @@ To copy the Project files to your local computer to the *<your_dir_on_local_comp
 - ft_memalloc
 - ft_memrealloc
 - ft_memdel
-### _Strings_
+#### _Strings_
 - ft_strlen
 - ft_strdup
 - ft_strcpy 
@@ -44,11 +42,11 @@ To copy the Project files to your local computer to the *<your_dir_on_local_comp
 - ft_strnstr
 - ft_strcmp
 - ft_strncmp
-### _Convert_
+#### _Convert_
 - ft_atoi
 - ft_toupper
 - ft_tolower
-### _Check_
+#### _Check_
 - ft_isalpha
 - ft_isdigit
 - ft_isalnum
@@ -56,8 +54,8 @@ To copy the Project files to your local computer to the *<your_dir_on_local_comp
 - ft_isprint
 
 
-## Additional Functions
-### _Strings_
+### Additional Functions
+#### _Strings_
 - ft_strnew
 - ft_strdel
 - ft_strclr
@@ -72,9 +70,9 @@ To copy the Project files to your local computer to the *<your_dir_on_local_comp
 - ft_strtrim
 - ft_strsplit
 - ft_strlcat
-- ### _Convert_
+#### _Convert_
 - ft_itoa
-### _I/O_
+#### _I/O_
 - ft_putchar
 - ft_putstr
 - ft_putendl
@@ -84,8 +82,8 @@ To copy the Project files to your local computer to the *<your_dir_on_local_comp
 - ft_putendl_fd
 - ft_putnbr_fd
 
-## Bonus Functions
-### _Lists_
+### Bonus Functions
+#### _Lists_
 - ft_lstnew
 - ft_lstdelone
 - ft_lstdel
@@ -93,36 +91,75 @@ To copy the Project files to your local computer to the *<your_dir_on_local_comp
 - ft_lstiter
 - ft_lstmap
 
-## My Functions
-### _Check_
+### My Functions
+#### _Check_
 - ft_istabeolsp
-### _Lists_
+#### _Lists_
 - ft_lst_elemcpy
  - ft_lstdup
-### _Int_
+#### _Int_
  - ft_digcount_base
  - ft_powint
-### _Pointers_
+#### _Pointers_
 - ft_swap
 
-##
-##
+<br>
+More details regarding functions are in  **libft.en.pdf** (https://github.com/dbadeev/LIBFT/blob/master/libft.en.pdf)
+
+---
+
 
 ## Usage
-### Compile
--  to compile **libft.a** run:
-```make ``` OR ``` make libft ```
-- to delete **tmp** files after compile (only **libft.a** will be remain) run: 
-```make clean```
-- to delete ALL files after compile run: ``` fclean``` 
-- to update the configuration, if you change any **filename.c/h**  run: ``` make``` 
-- to recompile all files run: ```make re``` 
+### Compiling
+-  to compile **libft.a**:
+```
+$ make
+```
+OR 
+``` 
+$ make libft
+```
+
+- to delete **tmp** files after compiling (only **libft.a** will be remain): 
+```
+$ make clean
+```
+- to delete ALL files after compiling:
+  ```
+  $ fclean
+  ``` 
+- to update the configuration (if you change any **filename.c/h**):
+  ```
+  $ make
+  ``` 
+- to recompile all files:
+  ```
+  $ make re
+  ``` 
 
 
-## Include
+### In Project
 To use **Libft** in project:
-
-- ```#include <libft.h> ```
-- compile files with ```-I /libft/includes```
+```
+#include <libft.h>
+```
+- compile files with
+```
+-I /libft/includes
+```
 - compile **libft**
-- link binary with ``` -L /libft -lft ```
+- link binary with
+```
+-L /libft -lft
+```
+<br>
+
+## Author
+
+*loram (Dmitry Badeev)*
+
+<br>
+
+
+## School 21 Result
+![](https://user-images.githubusercontent.com/50623941/135349015-b3809664-fa24-4062-a7c8-b3dec73fccee.png)
