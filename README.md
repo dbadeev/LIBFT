@@ -6,6 +6,16 @@ The aim of this project is to code a C library, regrouping usual functions, that
 
 More details regarding that project are in  **libft.en.pdf**
 
+## Getting Started
+
+### Copying
+To copy the Project files to your local computer to the *<your_dir_on_local_computer>* folder, run:
+
+```
+    $ git clone git@github.com:dbadeev/libft-project.git <your_dir_on_local_computer>
+```
+
+
 # Contents
 
 ## Libc functions
