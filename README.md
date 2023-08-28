@@ -162,4 +162,4 @@ To use **Libft** in project:
 
 
 ## School 21 Result
-![](https://user-images.githubusercontent.com/50623941/135349015-b3809664-fa24-4062-a7c8-b3dec73fccee.png)
+<img width="702" alt="image" src="https://github.com/dbadeev/LIBFT/assets/50623941/9b6ea161-1cb4-4e57-8921-569bef96be73">
